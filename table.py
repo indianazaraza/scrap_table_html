@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
-path = Service("/home/maca/chromedriver")
+path = Service("/home/user/chromedriver")
 driver = Chrome(service=path, options=chrome_options)
 driver.get("https://www.w3schools.com/html/html_tables.asp")
 try:
